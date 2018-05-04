@@ -4,11 +4,24 @@ This demo illustrates how we can create a "TutorialToken" smart contract, compil
 
 ### Run it
 
-* Clone the repo
-* `npm install`
 * Run [Ganache](http://truffleframework.com/ganache/)
-* `truffle compile`
-* `truffle migrate`
-* `npm run dev`
+* In your terminal: 
 
-Visit `localhost:3001` to view the basic UI.
+``` bash
+# Clone this repo
+git clone https://github.com/wellstyler/ethereum-truffle-with-openzeppelin.git
+
+# Install depencies
+npm install
+
+# Compile our contracts
+truffle compile
+
+# Migrate (deploy) our contracts to Ganache's blockchain
+truffle migrate
+
+# Start the web server
+npm run dev
+```
+
+Visit `localhost:3001` to view the basic UI. You can transfer funds from one Ganache address to another.
